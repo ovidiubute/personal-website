@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Blog!
+title: Thoughts on Zabbix
 date: "2015-12-04"
 featuredImage: './zabbix.png'
 ---
