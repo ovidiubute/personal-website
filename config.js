@@ -12,6 +12,6 @@ module.exports = {
     twitter: 'https://twitter.com/ovidiubute',
     linkedin: 'https://linkedin.com/in/ovidiubute',
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://blog.ovidiu.dev',
+  pathPrefix: '/',
+  siteUrl: 'https://ovidiu.dev',
 };
