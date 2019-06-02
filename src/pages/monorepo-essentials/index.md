@@ -1,6 +1,7 @@
 ---
 title: Essentials of monorepo development
 published: false
+date: "2019-06-02"
 description: Pros and cons of building and maintaining a monorepo
 tags: monorepo, software, large-scale, development, frontend
 featuredImage: './blocks.jpg'
