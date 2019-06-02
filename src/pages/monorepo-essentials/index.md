@@ -6,10 +6,6 @@ tags: monorepo, software, large-scale, development, frontend
 featuredImage: './blocks.jpg'
 ---
 
----
-
-![cover](./blocks.jpg)
-
 The word monorepo is a combination between *mono*, as in the Greek word *mónos* (in translation, alone) and an abbreviation of the word repository. A simple concept if taken verbatim: **one lonely repository**. The domain is software engineering so we're referring to a home for source code, multimedia assets, binary files, and so on. But this definition is just the tip of the iceberg, since a monorepo in practice is **so much more**. 
 
 In this article I plan to distill the pros and cons of having every piece of code your company owns in the same repository. At the end you should have a good idea about why you should consider working like this, what challenges you'll face, what problems it'll solve, and how much you'll need to invest in it.
