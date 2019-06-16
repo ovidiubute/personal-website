@@ -5,7 +5,7 @@ const Card = styled.div`
   border: 1px solid #e0e6ed;
   box-shadow: 0 1px 5px rgba(0,0,0,0.05);
   margin-bottom: 15px;
-  padding: 45px 100px;
+  padding: 75px 100px 45px 100px;
 
   @media only screen and (max-width: 870px) {
     border-left: none;
