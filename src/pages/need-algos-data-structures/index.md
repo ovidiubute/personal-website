@@ -1,5 +1,5 @@
 ---
-title: An approach to learning programming languages
+title: The need for algorithms and data structures
 date: "2019-03-26"
 ---
 
