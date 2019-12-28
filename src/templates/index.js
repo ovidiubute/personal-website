@@ -32,7 +32,6 @@ const IndexPage = ({ pageContext }) => {
               date={node.frontmatter.date}
               title={node.frontmatter.title}
               excerpt={node.excerpt}
-              image={node.frontmatter.featuredImage}
               slug={node.fields.slug}
             />
           </Card>
