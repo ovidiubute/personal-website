@@ -1,7 +1,6 @@
 ---
 title: An approach to learning programming languages
 date: "2017-04-12"
-featuredImage: './ide.png'
 ---
 
 Learning to write code in a new programming language is similar to learning a foreign language.

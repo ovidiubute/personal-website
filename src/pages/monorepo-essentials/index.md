@@ -4,7 +4,6 @@ published: false
 date: "2019-06-02"
 description: Pros and cons of building and maintaining a monorepo
 tags: monorepo, software, large-scale, development, frontend
-featuredImage: './blocks.jpg'
 ---
 
 The word monorepo is a combination between *mono*, as in the Greek word *mónos* (in translation, alone) and an abbreviation of the word repository. A simple concept if taken verbatim: **one lonely repository**. The domain is software engineering so we're referring to a home for source code, multimedia assets, binary files, and so on. But this definition is just the tip of the iceberg, since a monorepo in practice is **so much more**. 

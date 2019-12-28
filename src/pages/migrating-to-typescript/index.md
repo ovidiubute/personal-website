@@ -2,7 +2,6 @@
 title: Thoughts on migrating to TypeScript
 date: "2018-12-27"
 tags: frontend, typescript
-featuredImage: './hootscript.png'
 ---
 
 > Note: I wrote this post originally for the [Hootsuite Medium publication](https://medium.com/hootsuite-engineering/). Check it out for more interesting articles.

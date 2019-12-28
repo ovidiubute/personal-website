@@ -2,7 +2,6 @@
 title: Books every engineering manager should read
 date: "2019-04-20"
 tags: management, leadership, books
-featuredImage: './books.jpeg'
 ---
 
 It's a rare occasion that companies provide leadership training before you become a manager. A few days or weeks after what was probably one of the happiest days in your recent memory, the day you were offered a position outside of the individual contributor track, you find yourself with a million questions. You feel that you were tricked into signing something without reading the fine print.

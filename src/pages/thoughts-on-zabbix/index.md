@@ -1,7 +1,6 @@
 ---
 title: Thoughts on Zabbix
 date: "2015-12-04"
-featuredImage: './zabbix.png'
 ---
 
 I'd like to spend some time analysing the state of a very powerful, but somehow little known, at least outside of sysops/devops circles, solution to monitor your production environment.

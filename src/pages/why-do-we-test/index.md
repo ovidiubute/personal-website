@@ -1,6 +1,5 @@
 ---
 title: Why do we test?
-published: false
 date: "2016-12-26"
 tags: software, testing, clean code
 ---
