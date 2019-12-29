@@ -12,7 +12,6 @@ import ArticleHeader from '../components/ArticleHeader';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Container from '../components/Container';
-import FeaturedImage from '../components/FeaturedImage';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
 
@@ -41,11 +40,6 @@ class BlogPostTemplate extends React.Component {
           </Helmet>
           <Card>
             <ArticleHeader>
-              {post.frontmatter.featuredImage && (
-                <FeaturedImage
-                  sizes={post.frontmatter.featuredImage.childImageSharp.sizes}
-                />
-              )}
               <h1>{post.frontmatter.title}</h1>
               <p>{post.frontmatter.date}</p>
               <span />
@@ -93,13 +87,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        featuredImage {
-          childImageSharp {
-            sizes(maxWidth: 850) {
-              ...GatsbyImageSharpSizes
-            }
-          }
-        }
       }
     }
   }
