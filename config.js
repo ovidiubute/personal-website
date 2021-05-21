@@ -9,7 +9,6 @@ module.exports = {
   social: {
     website: 'https://ovidiu.dev',
     github: 'https://github.com/ovidiubute',
-    twitter: 'https://twitter.com/ovidiubute',
     linkedin: 'https://linkedin.com/in/ovidiubute',
   },
   pathPrefix: '/',
