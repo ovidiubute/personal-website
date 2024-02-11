@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-personal-web",
+  "version": "1.0.0",
+  "description": "Personal website using Gatsby theme",
+  "main": "index.js",
+  "repository": "git@github.com:ovidiubute/gatsby-personal-web.git",
+  "author": "Ovidiu Bute <ovidiu.bute@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.3",
+    "gatsby-theme-developer": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
