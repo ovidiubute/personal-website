@@ -1,7 +1,6 @@
 ---
 title: Books every engineering manager should read
 date: 2019-04-20
-tags: management, leadership, books
 draft: false
 slug: /blog/engineering-management-books
 template: post

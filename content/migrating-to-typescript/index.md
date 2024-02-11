@@ -1,7 +1,6 @@
 ---
 title: Thoughts on migrating to TypeScript
 date: 2018-12-27
-tags: frontend, typescript
 draft: false
 slug: /blog/migrating-to-typescript
 template: post

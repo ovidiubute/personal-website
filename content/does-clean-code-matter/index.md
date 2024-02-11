@@ -1,7 +1,6 @@
 ---
 title: Does clean code matter?
 date: 2016-08-21
-tags: software, testing, clean code
 draft: false
 slug: /blog/does-clean-code-matter
 template: post
