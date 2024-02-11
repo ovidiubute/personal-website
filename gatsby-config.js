@@ -7,7 +7,7 @@ module.exports = {
                 subtitle: "Tech Lead",
                 description: "Ovi's personal blog and portfolio",
                 siteUrl: "https://ovidiu.dev",
-                defaultPreviewImage: "/og-default.png",
+                defaultPreviewImage: "/favicon-32x32.png",
                 author: {
                     name: "Ovidiu Bute (Ovi)",
                     bio: "Tech Lead",
