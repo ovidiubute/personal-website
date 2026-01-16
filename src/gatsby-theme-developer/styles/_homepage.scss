@@ -1,0 +1,119 @@
+// Homepage - Bold hero section with expressive typography
+
+.intro {
+  margin-top: $space * 4;
+  margin-bottom: $space * 4;
+  max-width: 100%;
+
+  @media (min-width: 768px) {
+    margin-top: $space * 6;
+    margin-bottom: $space * 6;
+  }
+
+  h1, .display-title {
+    font-family: $font-family-display;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: $black;
+    margin-bottom: $space;
+
+    @media (min-width: 768px) {
+      font-size: 4rem;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 5rem;
+    }
+  }
+
+  p, .lead {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: $gray-700;
+    max-width: 540px;
+
+    @media (min-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  // Accent styling for name or key text
+  .accent {
+    color: $accent;
+  }
+
+  // Social links in intro
+  .social-links {
+    margin-top: $space * 1.5;
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: $gray-600;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 0.25rem;
+
+      &:hover {
+        color: $black;
+        border-bottom-color: $black;
+      }
+    }
+  }
+}
+
+// Author section on homepage
+.author-section {
+  display: flex;
+  align-items: flex-start;
+  gap: $space * 1.5;
+  margin-bottom: $space * 2;
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+
+    @media (min-width: 768px) {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .author-info {
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+
+      @media (min-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      color: $gray-600;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Section headers on homepage
+.section-header {
+  font-family: $font-family-display;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $gray-500;
+  margin-bottom: $space;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $gray-200;
+}

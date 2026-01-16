@@ -1,0 +1,97 @@
+// Header - Minimal typographic navigation
+
+header {
+  padding: $space 0;
+  border-bottom: 1px solid $gray-200;
+  margin-bottom: $space * 2;
+
+  a {
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: $accent;
+    }
+
+    h1 {
+      float: none;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0;
+    }
+  }
+
+  .navbar {
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-family: $font-family-display;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: $black;
+    padding: 0;
+    margin-right: 0;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    margin-top: 0;
+
+    .nav-item {
+      margin-left: 0;
+    }
+
+    .nav-link {
+      padding: 0.25rem 0;
+      margin: 0 0 0 1.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 2px solid transparent;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover {
+        border-bottom-color: $black;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+    padding: 0;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+// Mobile adjustments
+@media (max-width: 767px) {
+  header {
+    .navbar-nav {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid $gray-200;
+      width: 100%;
+
+      .nav-link {
+        margin: 0 1rem 0 0;
+      }
+    }
+  }
+}

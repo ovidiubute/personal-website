@@ -1,0 +1,181 @@
+// Bold Typographic Design - Main Stylesheet
+// Overrides gatsby-theme-developer styles
+
+@use 'sass:math';
+
+// =============================================================================
+// COLOR SYSTEM - Stark black and white with single accent
+// =============================================================================
+$white: #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #1a1a1a;
+$gray-900: #212529;
+$black: #000000;
+
+// Single accent color for links and highlights
+$accent: #0066ff;
+
+$grays: ();
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$blue: $accent;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+
+$colors: ();
+$colors: map-merge(
+  (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800
+  ),
+  $colors
+);
+
+$primary: $accent;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
+
+// =============================================================================
+// TYPOGRAPHY - Large, expressive headers
+// =============================================================================
+$font-family-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-family-monospace: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 1.125rem; // 18px for better readability
+$line-height-base: 1.7;
+$headings-font-family: $font-family-display;
+$headings-font-weight: 700;
+$headings-line-height: 1.15;
+$headings-color: $black;
+
+// Large, bold headline sizes
+$h1-font-size: 3.5rem;
+$h2-font-size: 2.25rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.875rem;
+
+$spacer: 1rem;
+$paragraph-margin-bottom: $spacer * 1.8;
+$headings-margin-bottom: math.div($paragraph-margin-bottom, 2);
+$space: $spacer * 2;
+
+// =============================================================================
+// BOOTSTRAP IMPORT
+// =============================================================================
+@import "~bootstrap/scss/bootstrap";
+
+// =============================================================================
+// GLOBAL STYLES
+// =============================================================================
+@import "common";
+@import "author";
+@import "header";
+@import "detail";
+@import "list";
+@import "homepage";
+
+// =============================================================================
+// BASE OVERRIDES
+// =============================================================================
+html {
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: $font-family-base;
+  background-color: $white;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family-display;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $black;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+
+  @media (min-width: 768px) {
+    font-size: $h1-font-size;
+  }
+}
+
+h2, .h2 {
+  font-size: 1.75rem;
+
+  @media (min-width: 768px) {
+    font-size: $h2-font-size;
+  }
+}
+
+// Container - use Bootstrap defaults (matches nav width)
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  @media (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+// Selection styling
+::selection {
+  background-color: $accent;
+  color: $white;
+}

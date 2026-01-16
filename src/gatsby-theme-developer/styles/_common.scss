@@ -1,0 +1,78 @@
+// Common styles - Links and global elements
+
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: darken($accent, 10%);
+    text-decoration: underline;
+  }
+}
+
+.nav-link {
+  color: $black;
+  font-family: $font-family-display;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  margin: 0 1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    color: $black;
+    text-decoration: none;
+    border-bottom-color: $black;
+  }
+
+  &.active {
+    border-bottom-color: $accent;
+  }
+}
+
+// Typography refinements
+p {
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+// Code styling
+code {
+  font-family: $font-family-monospace;
+  font-size: 0.875em;
+  background-color: $gray-100;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  font-family: $font-family-monospace;
+}
+
+// Horizontal rule
+hr {
+  border: none;
+  border-top: 1px solid $gray-200;
+  margin: $space * 1.5 0;
+}
+
+// Footer spacing
+footer {
+  padding: $space * 2 0;
+  margin-top: $space * 2;
+  border-top: 1px solid $gray-200;
+
+  p {
+    font-size: 0.875rem;
+    color: $gray-600;
+    margin-bottom: 0;
+  }
+}

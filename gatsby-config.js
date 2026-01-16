@@ -34,37 +34,18 @@ module.exports = {
             href: "/blog",
           },
         ],
-        articlesPerPage: 4,
+        articlesPerPage: 20,
         language: "en",
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "G-JTC98N8R71", // Google Analytics / GA
+        fonts: [
+          `Space Grotesk\:400,500,600,700`,
+          `Inter\:400,500,600`,
         ],
-        // This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
-        gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        // This object is used for configuration specific to this plugin
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: false,
-          // Setting this parameter is also optional
-          respectDNT: true,
-          // Avoids sending pageview hits from custom paths
-          exclude: ["/preview/**", "/do-not-track/me/too/"],
-          // Defaults to https://www.googletagmanager.com
-          origin: "https://www.googletagmanager.com",
-          // Delays processing pageview events on route update (in milliseconds)
-          delayOnRouteUpdate: 0,
-        },
+        display: "swap",
       },
     },
   ],

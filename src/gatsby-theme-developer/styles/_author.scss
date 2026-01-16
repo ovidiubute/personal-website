@@ -1,0 +1,76 @@
+// Author section - clean aligned layout
+
+section.author {
+  font-size: 1rem;
+  padding: $space * 1.25;
+  background: $gray-100;
+  border: none;
+  border-radius: 8px;
+  margin: $space * 2 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: $space * 1.25;
+  align-items: center;
+
+  img {
+    border-radius: 8px;
+    width: 100px;
+    height: auto;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  // Text content wrapper
+  > div, > span {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.125rem;
+    line-height: 1.3;
+  }
+
+  p {
+    color: $gray-600;
+    margin-bottom: 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .links_follow {
+    display: none; // Hide "Follow me" text
+  }
+
+  .authorLinks {
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    a {
+      color: $gray-500;
+      display: inline-flex;
+      align-items: center;
+      margin: 0;
+      transition: color 0.15s ease;
+
+      svg {
+        width: 22px;
+        height: 22px;
+      }
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}
