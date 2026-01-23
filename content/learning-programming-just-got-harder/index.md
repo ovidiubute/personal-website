@@ -44,10 +44,11 @@ The core idea was simple: learning a language isn’t about syntax. It’s about
 What I didn’t emphasize enough back then is how much of that learning came from struggle.
 
 Not heroic struggle. Not romantic suffering. Just… friction.
-• Code that compiled but behaved incorrectly
-• Bugs that took hours to isolate
-• Refactors that broke things in subtle ways
-• Patterns that only made sense after misusing them
+
+- Code that compiled but behaved incorrectly
+- Bugs that took hours to isolate
+- Refactors that broke things in subtle ways
+- Patterns that only made sense after misusing them
 
 I learned slowly. Often painfully.
 
@@ -60,24 +61,27 @@ That process wasn’t efficient. But it worked.
 AI makes it possible — even tempting — to bypass that entire phase.
 
 You can now:
-• Generate working solutions without fully understanding them
-• Fix errors without knowing their root cause
-• Ship features without forming a mental model of the system
+
+- Generate working solutions without fully understanding them
+- Fix errors without knowing their root cause
+- Ship features without forming a mental model of the system
 
 And here’s the dangerous part: this doesn’t fail immediately.
 
 In fact, it often looks like success.
-• The code works
-• The task is done
-• The PR gets approved
+
+- The code works
+- The task is done
+- The PR gets approved
 
 But the cost isn’t gone. It’s deferred.
 
 It shows up later:
-• When the system behaves unexpectedly
-• When performance degrades
-• When trade-offs matter
-• When debugging requires intuition, not syntax
+
+- When the system behaves unexpectedly
+- When performance degrades
+- When trade-offs matter
+- When debugging requires intuition, not syntax
 
 At that point, the gap is painful — not because AI was used, but because it replaced thinking instead of amplifying it.
 
@@ -108,10 +112,11 @@ It would be easy to stop here and say: "So just don’t use AI."
 That advice is useless.
 
 The reality juniors are facing today is very different from the one I learned in:
-• Faster expectations
-• More competition
-• Less tolerance for ramp-up time
-• Constant comparison to AI-level output
+
+- Faster expectations
+- More competition
+- Less tolerance for ramp-up time
+- Constant comparison to AI-level output
 
 AI doesn’t feel like cheating. It feels like relief.
 
