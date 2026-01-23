@@ -87,15 +87,15 @@ There are a few things juniors risk missing if AI becomes a permanent crutch ear
 
 1. Mental models
 
-Without wrestling with problems yourself, it’s hard to build a clear picture of how things actually work. You can recognize patterns without understanding them — which breaks down fast at scale.
+   Without wrestling with problems yourself, it’s hard to build a clear picture of how things actually work. You can recognize patterns without understanding them — which breaks down fast at scale.
 
 2. Debugging instincts
 
-Debugging isn’t a skill you read about. It’s pattern recognition built from past failures. If you’ve never been lost in a system, you won’t know how to find your way out.
+   Debugging isn’t a skill you read about. It’s pattern recognition built from past failures. If you’ve never been lost in a system, you won’t know how to find your way out.
 
 3. Taste
 
-Good code isn’t just correct — it’s appropriate. Taste comes from seeing many bad solutions, including your own. AI can give you "working," but it won’t give you taste unless you already have a baseline.
+   Good code isn’t just correct — it’s appropriate. Taste comes from seeing many bad solutions, including your own. AI can give you "working," but it won’t give you taste unless you already have a baseline.
 
 None of this means AI is harmful by default.
 
@@ -133,7 +133,7 @@ Use AI after you form a hypothesis
 
 Try to reason about the solution first. Even a bad attempt counts. Then use AI to compare approaches, spot gaps, or validate assumptions.
 
-Ask "why", not just "what"
+## Ask "why", not just "what"
 
 Generated code is cheap. Explanations are valuable. Use AI to interrogate decisions, not just produce results.
 
