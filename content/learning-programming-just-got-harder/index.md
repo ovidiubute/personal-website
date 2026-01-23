@@ -129,19 +129,19 @@ What should AI replace — and what should it never replace?
 
 Some principles that actually work:
 
-Use AI after you form a hypothesis
+### Use AI after you form a hypothesis
 
 Try to reason about the solution first. Even a bad attempt counts. Then use AI to compare approaches, spot gaps, or validate assumptions.
 
-## Ask "why", not just "what"
+### Ask "why", not just "what"
 
 Generated code is cheap. Explanations are valuable. Use AI to interrogate decisions, not just produce results.
 
-Rebuild small things without AI — on purpose
+### Rebuild small things without AI — on purpose
 
 Not everything. Just enough to stay sharp. Toy problems, utilities, small services. This is where intuition still forms.
 
-Treat AI like a senior reviewer, not a generator
+### Treat AI like a senior reviewer, not a generator
 
 A good senior doesn’t write everything for you — they guide, challenge, and correct. That’s the mental model that scales.
 
