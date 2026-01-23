@@ -38,7 +38,7 @@ tools that make it easy to skip the very experiences that used to build intuitio
 
 ## How I learned (and why it mattered)
 
-Years ago, I wrote an article called ["An approach to learning programming languages."](./learning-programming-languages)
+Years ago, I wrote an article called ["An approach to learning programming languages."](../learning-programming-languages)
 The core idea was simple: learning a language isn’t about syntax. It’s about learning how problems are expressed and solved within a set of constraints.
 
 What I didn’t emphasize enough back then is how much of that learning came from struggle.
