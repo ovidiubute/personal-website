@@ -43,7 +43,20 @@ header {
     }
   }
 
+  // Force navbar-collapse to be visible on all screen sizes
+  .navbar-collapse {
+    display: flex !important;
+    flex-basis: 100%;
+    flex-grow: 1;
+
+    @media (min-width: 768px) {
+      flex-basis: auto;
+      flex-grow: 0;
+    }
+  }
+
   .navbar-nav {
+    display: flex !important;
     flex-direction: column;
     margin-top: 1rem;
     padding-top: 1rem;
@@ -85,13 +98,9 @@ header {
     }
   }
 
+  // Hide the hamburger toggle button since we're always showing the nav
   .navbar-toggler {
-    border: none;
-    padding: 0;
-
-    &:focus {
-      box-shadow: none;
-    }
+    display: none;
   }
 }
 
