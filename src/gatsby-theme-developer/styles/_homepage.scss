@@ -1,5 +1,50 @@
 // Homepage - Bold hero section with expressive typography
 
+// Homepage layout - inline image with text wrap
+article.page.detail .row {
+  display: block; // Override Bootstrap flexbox
+
+  > .col-lg-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+    padding: 0;
+  }
+
+  > .col-lg-6:first-child {
+    float: left;
+    width: auto;
+    margin-right: $space;
+    margin-bottom: 0.5rem;
+
+    @media (min-width: 768px) {
+      margin-right: $space * 1.5;
+    }
+  }
+
+  > .col-lg-6:last-child {
+    h1 {
+      margin-top: 0;
+    }
+  }
+}
+
+// Avatar image on homepage - floated with text wrap
+article.page.detail .row > .col-lg-6:first-child img {
+  width: 90px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+
+  @media (min-width: 768px) {
+    width: 130px;
+  }
+
+  @media (min-width: 992px) {
+    width: 180px;
+  }
+}
+
 .intro {
   margin-top: $space * 4;
   margin-bottom: $space * 4;
