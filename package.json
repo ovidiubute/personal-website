@@ -17,6 +17,7 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
+    "ajv": "^8.17.1",
     "gatsby": "^5.14.5",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-theme-developer": "^1.5.1",
