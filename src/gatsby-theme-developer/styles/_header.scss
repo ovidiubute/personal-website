@@ -70,28 +70,78 @@ header {
     }
   }
 
+  // Hamburger menu toggle button
   .navbar-toggler {
-    border: none;
-    padding: 0;
+    border: 1px solid $gray-300;
+    padding: 0.5rem;
+    background-color: transparent;
+    cursor: pointer;
 
     &:focus {
       box-shadow: none;
+      outline: none;
+    }
+
+    .navbar-toggler-icon {
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
     }
   }
 }
 
-// Mobile adjustments
-@media (max-width: 767px) {
+// Mobile adjustments - show toggler, style collapsed menu
+@media (max-width: 767.98px) {
   header {
+    .navbar {
+      display: flex !important;
+      flex-wrap: wrap !important;
+    }
+
+    // Force the toggler to be visible on mobile
+    .navbar-toggler {
+      display: flex !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+    }
+
+    .navbar-toggler-icon {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    .navbar-collapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+    }
+
     .navbar-nav {
+      flex-direction: column;
       margin-top: 1rem;
       padding-top: 1rem;
       border-top: 1px solid $gray-200;
       width: 100%;
 
       .nav-link {
-        margin: 0 1rem 0 0;
+        margin: 0;
+        padding: 0.5rem 0;
       }
     }
+  }
+}
+
+// Ensure toggler is hidden on desktop
+@media (min-width: 768px) {
+  header .navbar-toggler {
+    display: none !important;
   }
 }
