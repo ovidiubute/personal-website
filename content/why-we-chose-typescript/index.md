@@ -6,8 +6,6 @@ slug: /blog/why-we-chose-typescript
 template: post
 ---
 
-# Why We Chose TypeScript — and Why That Decision Matters for Agentic AI
-
 When people talk about "agentic AI", the conversation usually starts with models, prompts, or orchestration frameworks. That's understandable — those are the visible parts. But in practice, the real constraints on what kind of agentic workflows a product can support are decided much earlier, often years before anyone seriously talks about AI.
 
 They are decided in places that don't look particularly "AI-related" at the time: language choice, system boundaries, conventions, and the general predictability of the codebase under change.
