@@ -6,6 +6,8 @@ slug: /blog/why-we-chose-typescript
 template: post
 ---
 
+_This is the first post in a series where I’ll share how I use AI in practice on a real SaaS project — what works, what doesn’t, and where the hype breaks down._
+
 When people talk about "agentic AI", the conversation usually starts with models, prompts, or orchestration frameworks. That's understandable — those are the visible parts. But in practice, the real constraints on what kind of agentic workflows a product can support are decided much earlier, often years before anyone seriously talks about AI.
 
 They are decided in places that don't look particularly "AI-related" at the time: language choice, system boundaries, conventions, and the general predictability of the codebase under change.
