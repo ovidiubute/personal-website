@@ -1,6 +1,7 @@
 ---
 title: Thoughts on Zabbix
 date: 2015-12-04
+description: Why Zabbix falls short for application developers
 draft: false
 slug: /blog/thoughts-on-zabbix
 template: post

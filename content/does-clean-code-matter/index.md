@@ -1,6 +1,7 @@
 ---
 title: Does clean code matter?
 date: 2016-08-21
+description: Exploring how to measure code cleanliness and its business value
 draft: false
 slug: /blog/does-clean-code-matter
 template: post

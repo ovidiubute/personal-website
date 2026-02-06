@@ -1,6 +1,7 @@
 ---
 title: AI Writes the Code Now. Learning to Program Just Got Harder.
 date: 2026-01-23
+description: How juniors can build real skills in an AI-assisted world
 draft: false
 slug: /blog/learning-programming-just-got-harder
 template: post

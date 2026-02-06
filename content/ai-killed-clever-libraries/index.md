@@ -1,6 +1,7 @@
 ---
 title: AI Killed Clever Libraries
 date: 2026-02-06
+description: Why popular, boring libraries beat elegant ones in AI-assisted workflows
 draft: false
 slug: /blog/ai-killed-clever-libraries
 template: post

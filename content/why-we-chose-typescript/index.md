@@ -1,6 +1,7 @@
 ---
 title: Why We Chose TypeScript — and Why That Decision Matters for Agentic AI
 date: 2026-01-28
+description: How language choice shapes what agentic workflows are possible
 draft: false
 slug: /blog/why-we-chose-typescript
 template: post

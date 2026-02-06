@@ -1,6 +1,7 @@
 ---
 title: Thoughts on migrating to TypeScript
 date: 2018-12-27
+description: Lessons from migrating a large JavaScript codebase to TypeScript
 draft: false
 slug: /blog/migrating-to-typescript
 template: post

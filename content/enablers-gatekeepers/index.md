@@ -1,6 +1,7 @@
 ---
 title: Enablers and gatekeepers
 date: 2020-04-09
+description: Two team cultures and how they shape collaboration
 draft: false
 slug: /blog/enablers-gatekeepers
 template: post

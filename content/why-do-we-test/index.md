@@ -1,6 +1,7 @@
 ---
 title: Why do we test?
 date: 2016-12-26
+description: Tests as the only reliable way to document a living codebase
 tags: software, testing, clean code
 template: page
 draft: false

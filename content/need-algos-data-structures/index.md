@@ -1,6 +1,7 @@
 ---
 title: The need for algorithms and data structures
 date: 2019-03-26
+description: Why CS fundamentals matter even when your job doesn't demand them
 draft: false
 slug: /blog/algos-data-structures
 template: post

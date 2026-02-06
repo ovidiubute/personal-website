@@ -1,6 +1,7 @@
 ---
 title: An approach to learning programming languages
 date: 2017-04-12
+description: Metrics for tracking your journey toward language mastery
 draft: false
 slug: /blog/learning-programming-languages
 template: post
