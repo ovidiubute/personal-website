@@ -7,6 +7,8 @@ slug: /blog/why-ai-finally-breaks-clickops
 template: post
 ---
 
+_This is the third post in a series where I’ll share how I use AI in practice on a real SaaS project — what works, what doesn’t, and where the hype breaks down._
+
 If you want to build a SaaS product with AI, you need to accept something early that most teams only learn the hard way:
 
 AI does not simplify infrastructure.
