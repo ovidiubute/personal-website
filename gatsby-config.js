@@ -4,13 +4,13 @@ module.exports = {
       resolve: "gatsby-theme-developer",
       options: {
         title: "Ovidiu Bute (Ovi)",
-        subtitle: "Tech Lead",
-        description: "Ovi's personal blog and portfolio",
+        subtitle: "Engineering leader & software architect",
+        description: "Ovidiu Bute is an engineering leader and software architect building AI-native, multi-tenant SaaS platforms.",
         siteUrl: "https://ovidiu.dev",
         defaultPreviewImage: "/favicon-32x32.png",
         author: {
-          name: "Ovidiu Bute (Ovi)",
-          bio: "Tech Lead",
+          name: "Ovidiu Bute",
+          bio: "Engineering leader and software architect building AI-native SaaS platforms",
           avatar: "/avatar.jpeg",
           links: {
             linkedin: "https://linkedin.com/in/ovidiubute",
@@ -26,7 +26,7 @@ module.exports = {
             href: "/",
           },
           {
-            title: "About me",
+            title: "About",
             href: "/about-me",
           },
           {

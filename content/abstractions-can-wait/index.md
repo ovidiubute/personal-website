@@ -7,7 +7,7 @@ slug: /blog/abstractions-can-wait
 template: post
 ---
 
-_This is the fourth post in a series where I’ll share how I use AI in practice on a real SaaS project — what works, what doesn’t, and where the hype breaks down._
+_This is the fourth post in a series where I’ll share how I use AI in practice on a real SaaS project - what works, what doesn’t, and where the hype breaks down._
 
 When you build a SaaS product with AI as part of your daily workflow, infrastructure choices stop being a background concern. They directly affect how fast you can debug, refactor, and evolve the system.
 

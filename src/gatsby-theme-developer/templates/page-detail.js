@@ -5,7 +5,6 @@ import PageDetail from "gatsby-theme-developer/src/components/PageDetail";
 import Header from "../components/Header";
 import useSiteMetadata from "gatsby-theme-developer/src/hooks/use-site-metadata";
 import LatestPosts from "../components/LatestPosts";
-import TechStack from "../components/TechStack";
 
 const PageTemplate = ({data, location}) => {
   const {
@@ -43,7 +42,6 @@ const PageTemplate = ({data, location}) => {
                 content={htmlContent}/>
     {isHomepage && (
       <>
-        <TechStack />
         <LatestPosts posts={posts} />
       </>
     )}
@@ -82,3 +80,44 @@ export const query = graphql`
 `;
 
 export default PageTemplate
+
+export const Head = ({ data }) => {
+  const page = data.markdownRemark.frontmatter;
+  const canonicalUrl = `https://ovidiu.dev${page.slug}`;
+  const pageDescription = page.description || "Ovidiu Bute is an engineering leader and software architect building AI-native SaaS platforms.";
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Ovidiu Bute",
+    alternateName: "Ovi",
+    url: "https://ovidiu.dev",
+    image: "https://ovidiu.dev/avatar.jpeg",
+    jobTitle: "Engineering Leader and Software Architect",
+    sameAs: [
+      "https://www.linkedin.com/in/ovidiubute/",
+      "https://github.com/ovidiubute"
+    ],
+    knowsAbout: [
+      "Software architecture",
+      "Engineering leadership",
+      "Software as a Service",
+      "Artificial intelligence",
+      "Multi-tenant systems"
+    ]
+  };
+
+  return <>
+    <html lang="en" />
+    <title>{page.title}</title>
+    <meta name="description" content={pageDescription} />
+    <meta name="author" content="Ovidiu Bute" />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={page.title} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content="https://ovidiu.dev/og-default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
+  </>;
+}

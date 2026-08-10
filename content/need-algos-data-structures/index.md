@@ -15,7 +15,7 @@ Solving programming exercises that require algorithms and data structure knowled
 
 ## Simpler times
 
-Let me back up a bit. In high school I was part of a class that was specialized in computer science and English — I'm Romanian, so foreign languages is something we need to get good at to succeed. The curricula was decent. We wrote code in Pascal, which wasn't the best choice maybe compared to C or C++, but it wasn't a hindrance in solving programming problems. I learned the imperative paradigm, sorting algorithms, data structures such as arrays, graphs, and trees, techniques such as _backtracking_ and _divide et impera_, and more.
+Let me back up a bit. In high school I was part of a class that was specialized in computer science and English - I'm Romanian, so foreign languages is something we need to get good at to succeed. The curricula was decent. We wrote code in Pascal, which wasn't the best choice maybe compared to C or C++, but it wasn't a hindrance in solving programming problems. I learned the imperative paradigm, sorting algorithms, data structures such as arrays, graphs, and trees, techniques such as _backtracking_ and _divide et impera_, and more.
 
 By the 12th grade, which is senior year in Romanian high school, I thought I had a good command of CS fundamentals. I enjoyed writing code, even though I was pretty bored of not being able to visualize output in any graphical way. This is what eventually drove me towards front-end development years later.
 
@@ -33,7 +33,7 @@ How exactly do you measure your success as a software developer? If you work for
 
 Yet most business software development is built in such a way that developers are interchangeable and the ramp up is cheap and fast. This is advantageous for companies, and enthusiastic for most developers, especially junior ones. You don't need a CS degree to write code using frameworks such as Spring or Django. You just need to be able to read documentation, use a modern IDE, and get through some on the job training on how to write tests and contribute to the project.
 
-I have never once had to think about the complexity of the code I was writing. Most systems I was working on did not have that much traffic, and the ones that did — they worked around it by throwing money at the problem via over-provisioned servers.
+I have never once had to think about the complexity of the code I was writing. Most systems I was working on did not have that much traffic, and the ones that did - they worked around it by throwing money at the problem via over-provisioned servers.
 
 I stated that CS fundamentals is a topic you absolutely need to get good at. Let me explain why. There are limits to how far you can go career wise without ever learning seemingly boring stuff like what is a self balancing tree, or what it means for a sorting algorithm to be stable. I think the fact that you can progress so far and so quickly in software without this knowledge is a big problem. It can lure you into a sense of false security which will hit you painfully at some point.
 

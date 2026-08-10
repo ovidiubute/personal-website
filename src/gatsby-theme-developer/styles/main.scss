@@ -100,10 +100,23 @@ $h4-font-size: 1.25rem;
 $h5-font-size: 1rem;
 $h6-font-size: 0.875rem;
 
-$spacer: 1rem;
-$paragraph-margin-bottom: $spacer * 1.8;
+// Spacing system: 4px base unit, using a restrained set of named steps.
+$space-unit: 4px;
+$space-1: $space-unit;       // 4px
+$space-2: $space-unit * 2;   // 8px
+$space-3: $space-unit * 3;   // 12px
+$space-4: $space-unit * 4;   // 16px
+$space-6: $space-unit * 6;   // 24px
+$space-8: $space-unit * 8;   // 32px
+$space-10: $space-unit * 10; // 40px
+$space-12: $space-unit * 12; // 48px
+$space-16: $space-unit * 16; // 64px
+
+$spacer: $space-4;
+$paragraph-margin-bottom: $space-6;
 $headings-margin-bottom: math.div($paragraph-margin-bottom, 2);
-$space: $spacer * 2;
+// Backwards-compatible default used throughout the theme.
+$space: $space-4;
 
 // =============================================================================
 // BOOTSTRAP IMPORT

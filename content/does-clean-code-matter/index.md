@@ -22,7 +22,7 @@ Could it be that the clean code question actually has more depth to it than we t
 
 I'd say that the question needs to have a bit more context for it to be fair to the person answering it. A more honest question would be something like:
 
-> "What is clean code to you, if you're going to be working on a 5–10 man team?"
+> "What is clean code to you, if you're going to be working on a 5-10 man team?"
 
 When was the last time you wrote code that you absolutely knew would hit production and stay there for at least 2 years? Have you ever known that in advance?
 
@@ -34,7 +34,7 @@ And after all, how clean can code be? How do you measure it? It might be temptin
 
 Perhaps you could measure the cleanliness factor of a particular block of code by measuring how much time it takes you to change it. But that also needs some context. Was the code written by you a week ago? A month? 2 years? Are you a Junior level software developer or a seasoned vet? Are you new to the project?
 
-And how about business value? Is it profitable for your company to write clean code? Does a start-up exit faster if its code was written in such a way that it allowed a 20–50 man team to rapidly iterate on it and pivot according to market fluctuations?
+And how about business value? Is it profitable for your company to write clean code? Does a start-up exit faster if its code was written in such a way that it allowed a 20-50 man team to rapidly iterate on it and pivot according to market fluctuations?
 
 I'm going to stop with the questions now, though, let's draw up some conclusions.
 

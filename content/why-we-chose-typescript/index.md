@@ -1,5 +1,5 @@
 ---
-title: Why We Chose TypeScript — and Why That Decision Matters for Agentic AI
+title: Why We Chose TypeScript - and Why That Decision Matters for Agentic AI
 date: 2026-01-28
 description: How language choice shapes what agentic workflows are possible
 draft: false
@@ -7,9 +7,9 @@ slug: /blog/why-we-chose-typescript
 template: post
 ---
 
-_This is the first post in a series where I’ll share how I use AI in practice on a real SaaS project — what works, what doesn’t, and where the hype breaks down._
+_This is the first post in a series where I’ll share how I use AI in practice on a real SaaS project - what works, what doesn’t, and where the hype breaks down._
 
-When people talk about "agentic AI", the conversation usually starts with models, prompts, or orchestration frameworks. That's understandable — those are the visible parts. But in practice, the real constraints on what kind of agentic workflows a product can support are decided much earlier, often years before anyone seriously talks about AI.
+When people talk about "agentic AI", the conversation usually starts with models, prompts, or orchestration frameworks. That's understandable - those are the visible parts. But in practice, the real constraints on what kind of agentic workflows a product can support are decided much earlier, often years before anyone seriously talks about AI.
 
 They are decided in places that don't look particularly "AI-related" at the time: language choice, system boundaries, conventions, and the general predictability of the codebase under change.
 
@@ -39,7 +39,7 @@ One of the less discussed aspects of AI systems is that they are heavily shaped 
 
 JavaScript and TypeScript dominate modern SaaS infrastructure. Most cloud SDKs, third-party APIs, internal tooling, and integration examples are either written in TypeScript or designed with it in mind. This has a very practical consequence for agentic systems: fewer translation steps.
 
-Every time an agent has to mentally "cross a boundary" — from one language, paradigm, or abstraction style to another — you increase the risk of misinterpretation. Adapters, wrappers, and glue code might look clean to humans, but they introduce ambiguity for automated reasoning.
+Every time an agent has to mentally "cross a boundary" - from one language, paradigm, or abstraction style to another - you increase the risk of misinterpretation. Adapters, wrappers, and glue code might look clean to humans, but they introduce ambiguity for automated reasoning.
 
 By working in an ecosystem where most tools already speak the same language, agents can operate closer to the actual execution environment. They can reason about asynchronous flows, error handling, data shapes, and APIs with fewer hidden assumptions.
 
@@ -47,7 +47,7 @@ Ecosystem size, in this sense, is not just a convenience. It is a real capabilit
 
 ---
 
-## When AI feels magical — and when it completely falls apart
+## When AI feels magical - and when it completely falls apart
 
 This difference becomes obvious the moment you actually sit down and work with modern models inside a real codebase.
 
@@ -55,7 +55,7 @@ Recently, I spent a session with Claude Opus working on a fairly complex interac
 
 That wasn't an accident.
 
-React, react-flow, and the surrounding ecosystem are extremely well-represented in public code, documentation, and examples. The abstractions are consistent, the patterns repeat, and the "shape" of a correct solution is widely shared. The model wasn't guessing — it was operating inside a dense, familiar conceptual space.
+React, react-flow, and the surrounding ecosystem are extremely well-represented in public code, documentation, and examples. The abstractions are consistent, the patterns repeat, and the "shape" of a correct solution is widely shared. The model wasn't guessing - it was operating inside a dense, familiar conceptual space.
 
 Now contrast that with something like ElectroDB, a popular DynamoDB ORM.
 
@@ -99,4 +99,4 @@ Choosing TypeScript did not make our product "AI-native". It made it agent-ready
 
 Agentic AI is not primarily a question of intelligence. It is a question of legibility. Models thrive in ecosystems where structure is visible, conventions are shared, and correct behavior can be reasoned about rather than memorized.
 
-Sometimes the most future-proof decision you can make is choosing the most boring option available — and then being disciplined about how you use it.
+Sometimes the most future-proof decision you can make is choosing the most boring option available - and then being disciplined about how you use it.

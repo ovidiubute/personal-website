@@ -72,7 +72,7 @@ I initially didn't want to read this after I found it, but I'm glad I changed my
 
 I won't spoil it for you. The information you get out of this story isn't particularly innovative. There are other books that dive into its topic in more detail. But there's something really satisfying about it that I can't really explain. It's like a GitHub gist that solves a problem in under 100 lines of code.
 
-You can be dismissive of it — there's no way it could be that simple, right? Or you can read through it carefully and appreciate its simplicity, knowing that it's not a generalized solution, but still good enough that it's worth having in your toolbox. It is entirely possible you'll read this book and think I'm exaggerating, but hey, it's my list ;)
+You can be dismissive of it - there's no way it could be that simple, right? Or you can read through it carefully and appreciate its simplicity, knowing that it's not a generalized solution, but still good enough that it's worth having in your toolbox. It is entirely possible you'll read this book and think I'm exaggerating, but hey, it's my list ;)
 
 ### [Radical Candor, by Kim Scott](https://www.amazon.com/Radical-Candor-Kim-Scott/dp/B01KTIEFEE)
 

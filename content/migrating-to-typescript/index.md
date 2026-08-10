@@ -28,7 +28,7 @@ Imagine having to read through a tree of a dozen React components with no inform
 ![tscode](/media/tscode.png)
 VSCode trying to be useful but lacking context to provide relevant autocomplete
 
-Another problem we experienced was that, due to a lack of information about the data flow, it was difficult to perform basic refactoring. Moving files around, splitting large components into smaller ones, or renaming files — these operations were both time consuming and risky. Our team embraced unit-testing since the very beginning, so we could not crash our app by moving files around. But it was still time consuming.
+Another problem we experienced was that, due to a lack of information about the data flow, it was difficult to perform basic refactoring. Moving files around, splitting large components into smaller ones, or renaming files - these operations were both time consuming and risky. Our team embraced unit-testing since the very beginning, so we could not crash our app by moving files around. But it was still time consuming.
 
 This led to an interesting realisation: developers rarely refactor code unless it is cheap and safe to do so. The reality was that our code base was in a dire technical debt state. Developers were wary of making major changes for fear of breaking functionality or spending too much time on what they initially thought to be basic tasks.
 
@@ -127,10 +127,10 @@ As you can imagine, this didn't always go smoothly. While writing new code was f
 
 We still wanted to uphold the vision, so we decided to take a look at the major offenders that were causing the large changesets. These were mostly older core React components or utility functions. These modules had been reused across the entire project, so changes made to them cascaded across the entire codebase. Rather than spend time upfront in rewriting them, which would have potentially caused delays in our product roadmap, we wrote declaration files for them. This helped a lot in reducing the size of subsequent pull requests. We delayed rewriting these modules until we were further along with the migration.
 
-If your team does this, word of warning — you are, in effect, adding **technical debt**. You will need to maintain these files, which is not simple. It is very easy to change JavaScript code without updating the corresponding declaration files. Your app will compile but crash and burn at runtime. In practice, we very rarely had this problem, due to our decent unit-test coverage. Try not to keep the declaration files forever, though, and commit to rewrite your code at some point.
+If your team does this, word of warning - you are, in effect, adding **technical debt**. You will need to maintain these files, which is not simple. It is very easy to change JavaScript code without updating the corresponding declaration files. Your app will compile but crash and burn at runtime. In practice, we very rarely had this problem, due to our decent unit-test coverage. Try not to keep the declaration files forever, though, and commit to rewrite your code at some point.
 
 ![moretscode](/media/moretscode.png)
-Better — autocomplete for React props, and documentation on React internals!
+Better - autocomplete for React props, and documentation on React internals!
 
 Of course we also _shipped_ some bugs in production during rewrites. The amazing value in type systems is that you can catch so many bugs at compile time instead of runtime. That was never the case for us before the migration, though, so we had a lot of lingering bugs waiting for the right conditions to manifest themselves.
 

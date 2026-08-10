@@ -27,6 +27,11 @@ article.article.detail,
 article.page.detail {
   margin: $space 0 $space * 3;
 
+  // Long, user-visible URLs in older posts must wrap on narrow screens.
+  a {
+    overflow-wrap: anywhere;
+  }
+
   header {
     text-align: left;
     margin-bottom: $space * 2;
@@ -39,7 +44,7 @@ article.page.detail {
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      color: $gray-500;
+      color: $gray-600;
       margin-bottom: 0.75rem;
     }
   }
