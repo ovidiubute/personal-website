@@ -1,0 +1,7 @@
+# Ovidiu Bute
+
+> Engineering leader and software architect writing about AI-native SaaS, software architecture, and engineering leadership.
+
+- [About](https://ovidiu.dev/about-me/)
+- [Blog](https://ovidiu.dev/blog/)
+
